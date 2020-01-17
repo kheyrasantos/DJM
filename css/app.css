@@ -1,0 +1,582 @@
+/*================ Overall Theme ================*/
+body {
+  color: #212b35;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.break {
+  display: block;
+}
+
+a, input, label, .button {
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 30px;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+/*================ Navigation ================*/
+.top-bar {
+  background-color: transparent;
+}
+.top-bar ul {
+  background-color: transparent;
+}
+.top-bar a {
+  color: white;
+  font-weight: bold;
+  text-shadow: 0 0 10px black;
+}
+.top-bar .logo {
+  max-width: 200px;
+}
+
+/*================ Video Background ================*/
+.video-background-section {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+}
+.video-background-section .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.65);
+}
+.video-background-section .video-background {
+  position: relative;
+  line-height: 0;
+}
+.video-background-section video {
+  width: 100%;
+  height: 100%;
+}
+.video-background-section video:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.video-background-section .video-text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 4;
+}
+.video-background-section h1 {
+  display: none;
+}
+.video-background-section h1, .video-background-section h2 {
+  color: white;
+  margin-bottom: 5px;
+  font-weight: bold;
+  z-index: 2;
+  font-size: 24px;
+  text-shadow: 0 0 10px black;
+}
+.video-background-section .logo {
+  max-width: 300px;
+}
+
+/*================ First Callout Section ================*/
+.first-callout-section {
+  position: relative;
+  color: white;
+  overflow: hidden;
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: #2980b9;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.first-callout-section:hover {
+  background-color: #20638f;
+}
+.first-callout-section a {
+  padding: 20px 0;
+  color: white;
+  display: block;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/*================ Signup Carousel ================*/
+#signup {
+  background: -webkit-gradient(linear, right bottom, left top, color-stop(50%, #f8f8f8), color-stop(50%, white));
+  background: -webkit-linear-gradient(bottom right, #f8f8f8 50%, white 50%);
+  background: -o-linear-gradient(bottom right, #f8f8f8 50%, white 50%);
+  background: linear-gradient(to top left, #f8f8f8 50%, white 50%);
+}
+#signup h2, #signup h3, #signup h4 {
+  font-weight: bold;
+}
+#signup .signup-carousel {
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 30px 0;
+}
+#signup .signup-carousel .slick-slide {
+  outline: none;
+  padding: 10px;
+}
+#signup .signup-carousel .step-number {
+  font-weight: bold;
+  border-radius: 50%;
+  border: 3px solid #212b35;
+  background-color: #212b35;
+  color: white;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  text-align: center;
+  margin-right: 10px;
+  padding: 3px;
+}
+#signup .signup-carousel .input-group {
+  margin-bottom: 0;
+}
+#signup .signup-carousel label {
+  opacity: 0;
+  padding-left: 8px;
+}
+#signup .signup-carousel .required {
+  opacity: 0;
+  display: none;
+  color: #bc1b06;
+}
+#signup .signup-carousel input {
+  border: none;
+  box-shadow: none;
+  border-bottom: 2px solid #2e8ece;
+  background-color: transparent;
+  margin-bottom: 30px;
+  position: relative;
+}
+#signup .signup-carousel input:focus {
+  border-bottom: 2px solid #2980b9;
+}
+#signup .signup-carousel input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+#signup .signup-carousel input:focus:-moz-placeholder {
+  color: transparent;
+}
+#signup .signup-carousel input:focus::-moz-placeholder {
+  color: transparent;
+}
+#signup .signup-carousel input:focus:-ms-input-placeholder {
+  color: transparent;
+}
+#signup .signup-carousel .input-error {
+  opacity: 1 !important;
+  color: #bc1b06;
+}
+#signup .signup-carousel .input-error .required {
+  opacity: 1;
+  display: inline-block;
+}
+#signup .signup-carousel .button {
+  background-color: #2980b9;
+  text-transform: uppercase;
+  font-weight: bold;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+  border: none;
+  border-radius: 3px;
+  margin-left: 10px;
+  font-size: 16px;
+}
+#signup .signup-carousel .button:hover {
+  border: none;
+  color: white;
+}
+
+/*================ Our Platforms ================*/
+.our-platforms-container {
+  overflow: hidden;
+}
+.our-platforms-container .circle {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 40%;
+}
+.our-platforms-container .clout {
+  font-size: 30px;
+  font-weight: bold;
+}
+.our-platforms-container .item img {
+  max-height: 600px;
+}
+
+/*================ Our Features ================*/
+.our-features-container {
+  background-color: #212b35;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+.our-features-container .grid-padding-x .grid-padding-x {
+  margin-left: auto;
+  margin-right: auto;
+}
+.our-features-container ul {
+  margin: 0 auto;
+  list-style: none;
+}
+.our-features-container li {
+  position: relative;
+  height: 100px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.our-features-container i {
+  color: #2980b9;
+  font-size: 34px;
+  vertical-align: middle;
+}
+.our-features-container .features-title {
+  display: inline-block;
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 0;
+  line-height: 1.4;
+}
+
+/*================ Callout Section ================*/
+.callout-section {
+  position: relative;
+  color: white;
+  overflow: hidden;
+  padding-bottom: 100px;
+  background-color: #212b35;
+  margin-top: 0;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.callout-section:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  border-left: 100vw solid #164666;
+  border-top: 11vh solid transparent;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.callout-section:after {
+  content: "";
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  border-right: 100vw solid #2980b9;
+  border-top: 13vh solid transparent;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.callout-section:hover:before {
+  border-left: 100vw solid #2980b9;
+}
+.callout-section:hover:after {
+  border-right: 100vw solid #20638f;
+}
+.callout-section:hover .callout-description {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+.callout-section .grid-container:not(.full) > .grid-padding-x {
+  margin-left: auto;
+  margin-right: auto;
+}
+.callout-section .grid-x {
+  position: absolute;
+  width: 99vw;
+  z-index: 2;
+  top: 53%;
+  text-align: center;
+  left: 0;
+  right: 0;
+}
+.callout-section .grid-x .callout-description {
+  display: block;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.callout-section .grid-x .callout-description:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+/*================ About Us ================*/
+#about .button {
+  border-radius: 3px;
+  background-color: transparent;
+  border: 2px solid #2980b9;
+  color: #2980b9;
+  font-weight: bold;
+  font-size: 16px;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+}
+#about .button:hover {
+  border: 2px solid #2980b9;
+  background-color: #2980b9;
+  color: white;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+/*================ Footer ================*/
+footer {
+  background-color: #101a24;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+footer p {
+  color: white;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+footer .logo {
+  max-width: 300px;
+}
+footer a {
+  color: white;
+}
+footer a:hover {
+  color: #2980b9;
+}
+
+/*================ Media Queries ================*/
+@media (max-width: 639px) {
+  .title-bar-title {
+    margin-right: 18px;
+  }
+
+  .small--text-center {
+    text-align: center;
+  }
+
+  .title-bar {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    background-color: #101a24;
+  }
+
+  .top-bar {
+    padding: 0;
+    display: none;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .top-bar a {
+    background-color: #efefef;
+    color: #212b35;
+    text-shadow: none;
+  }
+  .top-bar .top-bar-left {
+    display: none;
+  }
+  .top-bar .menu {
+    display: block;
+  }
+
+  .first-callout-section a {
+    padding: 10px 0;
+    font-size: 24px;
+  }
+
+  #signup .signup-carousel .step-number {
+    padding: 8px;
+  }
+
+  .our-features-container {
+    padding-bottom: 30px;
+  }
+  .our-features-container ul {
+    max-width: 350px;
+  }
+
+  .callout-section .grid-x .callout-description {
+    font-size: 24px;
+  }
+}
+@media (max-width: 1023px) {
+  .hide-on-mobile {
+    display: none;
+  }
+
+  footer .all-rights p {
+    font-size: 12px;
+    color: #777;
+    padding-top: 20px;
+  }
+
+  #platform .large-4 {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 640px) {
+  .hide-on-desktop {
+    display: none;
+  }
+
+  nav {
+    position: relative;
+    max-width: 75rem;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    margin: 0 auto;
+  }
+
+  .title-bar {
+    display: none;
+  }
+
+  .top-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+  }
+  .top-bar .logo {
+    max-width: 133px;
+  }
+  .top-bar a {
+    border-radius: 3px;
+  }
+  .top-bar a:hover {
+    background-color: #2980b9;
+    text-shadow: none;
+  }
+
+  .video-background-section .logo {
+    max-width: 400px;
+  }
+
+  .first-callout-section a {
+    font-size: 30px;
+  }
+
+  .signup-carousel .button-container {
+    text-align: right;
+  }
+
+  .our-features-container .features-title {
+    font-size: 20px;
+  }
+
+  #about .button-container {
+    width: 100%;
+    text-align: right;
+  }
+  #about .button-container .button {
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+  }
+
+  footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  footer .container {
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 0 0.9375rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  footer .all-rights p, footer .all-rights ul {
+    margin-bottom: 0;
+    display: inline-block;
+  }
+  footer .all-rights p {
+    color: #777;
+    font-size: 10px;
+    padding-bottom: 10px;
+  }
+  footer .all-rights ul {
+    list-style: none;
+  }
+}
+@media (min-width: 720px) {
+  .top-bar .logo {
+    max-width: 250px;
+  }
+
+  .break-on-tablet-up {
+    display: block;
+  }
+}
+@media (min-width: 1024px) {
+  .our-features-container li {
+    width: 33%;
+  }
+
+  .signup-carousel .name-container {
+    width: 48%;
+    display: inline-block;
+  }
+  .signup-carousel .first-name {
+    margin-right: 20px;
+  }
+  .signup-carousel .last-name {
+    float: right;
+  }
+}
+
+/*# sourceMappingURL=app.css.map */

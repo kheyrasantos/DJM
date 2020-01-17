@@ -498,7 +498,8 @@ footer a:hover {
   }
 
   .video-background-section .logo {
-    max-width: 400px;
+    max-width: 600px;
+    margin-bottom: 20px;
   }
 
   .first-callout-section a {

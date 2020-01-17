@@ -61,18 +61,23 @@
                 <div class="top-bar-right">
                     <ul class="menu">
                         <li>
-                            <a href="#signup" class="page-scroll">
-                                Sign Up
+                            <a href="#contact" class="page-scroll">
+                                Contact
                             </a>
                         </li>
                         <li>
-                            <a href="#platform" class="page-scroll">
-                                Our Platforms
+                            <a href="#our-performance" class="page-scroll">
+                                Our Performance
                             </a>
                         </li>
                         <li>
-                            <a href="#features" class="page-scroll">
-                                Our Features
+                            <a href="#our-services" class="page-scroll">
+                                Our Services
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#featured-clients" class="page-scroll">
+                                Featured Clients
                             </a>
                         </li>
                         <li>
@@ -95,7 +100,7 @@
                 <div class="video-text-overlay">
                     <img class="logo" src="/img/logo.png" alt="Diesel Jack Media" />
                     <h1>Diesel Jack Media</h1>
-                    <h2>Video Content Distribution</h2>
+                    <!-- <h2>Video Content Distribution</h2> -->
                 </div>
             </div>
         </section>
@@ -106,7 +111,7 @@
                 <div class="grid-x grid-padding-x">
                     <div class="large-12 cell">
                         <a class="callout-description page-scroll" href="#signup">
-                            Sign Up Now!
+                            Contact Us Now
                         </a>
                     </div>
                 </div>
@@ -114,12 +119,12 @@
         </section>
 
         <!-- Sign Up Carousel -->
-        <section id="signup">
+        <section id="contact">
             <div class="grid-container">
                 <div class="grid-x grid-padding-x">
                     <div class="large-12 cell">
                         <h3 class="text-center">
-                            Marketing & Technology Services Done Right
+                            Marketing &amp; Technology Services Done Right
                         </h3>
                         <div class="signup-carousel">
                             <div class="item">
@@ -168,7 +173,7 @@
                             <div class="item">
                                 <h4 class="small--text-center">Thank You!</h4>
                                 <p>
-                                    Please schedule a call if you would like to speak with our Founder of Diesel Jack Media directly or wait for our next update!
+                                    Please schedule a call if you would like to speak with our Founder of EpicVideo directly or wait for our next update!
                                 </p>
                                 <!-- Calendly inline widget begin -->
                                 <div class="calendly-inline-widget" data-url="https://calendly.com/markhammonds/rogue-shops-request" style="min-width:320px;height:580px;"></div>
@@ -182,7 +187,7 @@
         </section>
 
         <!-- Platform -->
-        <section class="grid-container our-platforms-container wow fadeInUp" id="platform">
+        <section class="grid-container our-platforms-container wow fadeInUp" id="our-performance">
             <div class="grid-x grid-padding-x">
                 <div class="large-12 cell text-center">
                     <h3 class="small--text-center">Small Firm. Big Results. Our Performance Stands Alone.</h3>
@@ -209,7 +214,7 @@
         </section>
 
         <!-- Features -->
-        <section class="our-features-container" id="features">
+        <section class="our-features-container" id="our-services">
             <div class="grid-container">
                 <div class="grid-x grid-padding-x">
                     <div class="large-12 cell">
@@ -223,7 +228,7 @@
                             </p>
                         </li>
                         <li class="small-12 medium-6 large-4 cell wow zoomIn">
-                            <i class="fal fa-hdd"></i>
+                            <i class="fad fa-coins"></i>
                             <p class="features-title">
                                 Conversion Optimization
                             </p>
@@ -261,14 +266,14 @@
                         </li>
 
                         <li class="small-12 medium-6 large-4 cell wow zoomIn">
-                            <i class="fad fa-box-usd"></i>
+                            <i class="fad fa-pencil-alt"></i>
                             <p class="features-title">
                                 Graphic Design
                             </p>
                         </li>
 
                         <li class="small-12 medium-6 large-4 cell wow zoomIn">
-                            <i class="fad fa-hands-usd"></i>
+                            <i class="fad fa-computer-classic"></i>
                             <p class="features-title">
                                 Website Development
                             </p>
@@ -279,19 +284,45 @@
         </section>
 
         <!-- Callout -->
-        <a href="#signup" class="page-scroll">
+        <a href="#contact" class="page-scroll">
             <section class="callout-section">
                 <div class="grid-container">
                     <div class="grid-x grid-padding-x">
                         <div class="large-12 cell">
                             <p class="callout-description page-scroll">
-                                Sign Up Now!
+                                Contact Us
                             </p>
                         </div>
                     </div>
                 </div>
             </section>
         </a>
+
+        <!-- Featured Clients -->
+        <section id="featured-clients" class="grid-container featured-clients-section">
+            <div class="text-center">
+                <h3 class="text-center">
+                    Featured Clients
+                </h3>
+            </div>
+            <div class="grid-x grid-padding-x">
+                <div class="small-12 large-4 cell">
+                    <a href="https://www.full30.com/" title="Full30" target="_blank">
+                        <img src="/img/featured-clients/full30.png" title="Full30" />
+                    </a>
+                </div>
+                <div class="small-12 large-4 cell">
+                    <a href="https://rangerup.com/" title="Ranger Up" target="_blank">
+                        <img src="/img/featured-clients/rangerup.png" title="Ranger Up" />
+                    </a>
+                </div>
+                <div class="small-12 large-4 cell">
+                    <a href="https://www.ausvfoundation.org/vettys" title="Vetty's" target="_blank">
+                        <img src="/img/featured-clients/vettys.png" title="Vetty's" />
+                    </a>
+                </div>
+            </div>
+        </section>
 
         <!-- About Us -->
         <section class="grid-container our-platforms-container wow fadeIn" id="about">
@@ -303,7 +334,7 @@
                     </p>
 
                     <div class="button-container small--text-center">
-                        <a href="#signup" class="signup-button button page-scroll">Sign Up Now</a>
+                        <a href="#signup" class="signup-button button page-scroll">Contact Us</a>
                     </div>
                 </div>
             </div>
@@ -325,7 +356,7 @@
                         <i class="fas fa-envelope"></i>
                         E-MAIL
                     </p>
-                    <a href="mailto:hello@Diesel Jack Media.com">hello@Diesel Jack Media.com</a>
+                    <a href="mailto:hello@Diesel Jack Media.com">hello@dieseljackmedia.com</a>
                 </div>
                 <div class="all-rights hide-on-desktop">
                     <p>

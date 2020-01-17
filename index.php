@@ -100,7 +100,7 @@
                 <div class="video-text-overlay">
                     <img class="logo" src="/img/logo.png" alt="Diesel Jack Media" />
                     <h1>Diesel Jack Media</h1>
-                    <!-- <h2>Video Content Distribution</h2> -->
+                    <h2>Marketing with a Bite</h2>
                 </div>
             </div>
         </section>
@@ -143,7 +143,7 @@
                                 <form id="company-form">
                                     <h4>Tell Us More</h4>
                                     <p>
-                                        If you have an existing business or startup in need of advertising services, please enter the additional information below and one of our representatives will be in touch!
+                                        If you have an existing business or startup in need of marketing services, please enter the additional information below and one of our representatives will be in touch!
                                     </p>
                                     <input id="email_hidden" name="email_hidden" type="hidden" />
                                     <label class="input-label" for="company_name">Company Name <span class="required">Required</span> </label>
@@ -195,7 +195,7 @@
                 <div class="small-12 large-4 cell text-center wow slideInUp">
                     <div class="position-relative">
                         <img src="/img/circle1.png" alt="Diesel Jack Media Page Views">
-                        <p class="circle"><span class="clout break">68,121,850</span> Years Cumulative Marketing Experience</p>
+                        <p class="circle"><span class="break" style="font-size: 30px; font-weight: bold;">68+</span> Years Cumulative Marketing Experience</p>
                     </div>
                 </div>
                 <div class="small-12 large-4 cell text-center wow slideInUp">

@@ -1,5 +1,5 @@
 /*================ Overall Theme ================*/
-$colorPrimary: #2980b9;
+$colorPrimary: #ed9220;
 $colorError: rgba(188, 27, 6, 1);
 $textColor: #212b35;
 
@@ -702,7 +702,7 @@ footer {
 /*================ Featured Clients ================*/
 @media (min-width: 640px) {
     #featured-clients {
-        background-color: rgba(33, 43, 53, 0.2);
+        background-color: white;
         padding-top: 40px;
         padding-bottom: 40px;
 

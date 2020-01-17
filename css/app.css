@@ -105,13 +105,13 @@ h3 {
   margin-top: 0;
   padding-top: 0;
   padding-bottom: 0;
-  background-color: #2980b9;
+  background-color: #ed9220;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
 }
 .first-callout-section:hover {
-  background-color: #20638f;
+  background-color: #ca7710;
 }
 .first-callout-section a {
   padding: 20px 0;
@@ -170,13 +170,13 @@ h3 {
 #contact .signup-carousel input {
   border: none;
   box-shadow: none;
-  border-bottom: 2px solid #2e8ece;
+  border-bottom: 2px solid #ef9e38;
   background-color: transparent;
   margin-bottom: 30px;
   position: relative;
 }
 #contact .signup-carousel input:focus {
-  border-bottom: 2px solid #2980b9;
+  border-bottom: 2px solid #ed9220;
 }
 #contact .signup-carousel input:focus::-webkit-input-placeholder {
   color: transparent;
@@ -199,7 +199,7 @@ h3 {
   display: inline-block;
 }
 #contact .signup-carousel .button {
-  background-color: #2980b9;
+  background-color: #ed9220;
   text-transform: uppercase;
   font-weight: bold;
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
@@ -257,7 +257,7 @@ h3 {
   align-items: center;
 }
 .our-features-container i {
-  color: #2980b9;
+  color: #ed9220;
   font-size: 34px;
   vertical-align: middle;
 }
@@ -290,7 +290,7 @@ h3 {
   height: 100%;
   top: 0;
   bottom: 0;
-  border-left: 100vw solid #164666;
+  border-left: 100vw solid #9b5b0c;
   border-top: 11vh solid transparent;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -303,17 +303,17 @@ h3 {
   bottom: 0;
   top: 0;
   left: 0;
-  border-right: 100vw solid #2980b9;
+  border-right: 100vw solid #ed9220;
   border-top: 13vh solid transparent;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
 }
 .callout-section:hover:before {
-  border-left: 100vw solid #2980b9;
+  border-left: 100vw solid #ed9220;
 }
 .callout-section:hover:after {
-  border-right: 100vw solid #20638f;
+  border-right: 100vw solid #ca7710;
 }
 .callout-section:hover .callout-description {
   -webkit-transform: scale(1.05);
@@ -353,15 +353,15 @@ h3 {
 #about .button {
   border-radius: 3px;
   background-color: transparent;
-  border: 2px solid #2980b9;
-  color: #2980b9;
+  border: 2px solid #ed9220;
+  color: #ed9220;
   font-weight: bold;
   font-size: 16px;
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
 }
 #about .button:hover {
-  border: 2px solid #2980b9;
-  background-color: #2980b9;
+  border: 2px solid #ed9220;
+  background-color: #ed9220;
   color: white;
   -webkit-transform: scale(1.05);
   -ms-transform: scale(1.05);
@@ -387,7 +387,7 @@ footer a {
   color: white;
 }
 footer a:hover {
-  color: #2980b9;
+  color: #ed9220;
 }
 
 /*================ Media Queries ================*/
@@ -493,7 +493,7 @@ footer a:hover {
     border-radius: 3px;
   }
   .top-bar a:hover {
-    background-color: #2980b9;
+    background-color: #ed9220;
     text-shadow: none;
   }
 
@@ -581,7 +581,7 @@ footer a:hover {
 /*================ Featured Clients ================*/
 @media (min-width: 640px) {
   #featured-clients {
-    background-color: rgba(33, 43, 53, 0.2);
+    background-color: white;
     padding-top: 40px;
     padding-bottom: 40px;
   }

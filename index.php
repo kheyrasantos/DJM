@@ -176,7 +176,7 @@
                                     Please schedule a call if you would like to speak with our Founder of EpicVideo directly or wait for our next update!
                                 </p>
                                 <!-- Calendly inline widget begin -->
-                                <div class="calendly-inline-widget" data-url="https://calendly.com/markhammonds/rogue-shops-request" style="min-width:320px;height:580px;"></div>
+                                <div class="calendly-inline-widget" data-url="https://calendly.com/dj_albert" style="min-width:320px;height:630px;"></div>
                                 <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
                                 <!-- Calendly inline widget end -->
                             </div>
